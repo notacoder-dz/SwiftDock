@@ -1,0 +1,42 @@
+REM This is an additional batch script that can be added to the main source code of SwiftDock
+REM By adding this script to the source code, in the indicated section (Follow the remarks or "REM"), SwiftDock would be orientated to execute a blind docking using AutoDock4
+REM The user can modify and change the grid box dimensions to accomodate their personal purposes
+
+@echo off
+setlocal enabledelayedexpansion
+
+REM Going through the ligands folders to modify their GPF files
+for /d %%d in (L-*) do (
+    set "subfolder=%%~d"
+    for %%f in ("!subfolder!\*.gpf") do (
+        set "gpffile=%%~f"
+        echo Found gpf file: !gpffile!
+        (
+            for /f "usebackq tokens=*" %%l in ("!gpffile!") do (
+                set "line=%%l"
+                REM Changing the xyz coordinates or number of points
+                set "line=!line:npts 40 40 40=npts 120 120 120!"
+                echo !line!
+            )
+        ) > "!gpffile!.temp"
+        move /y "!gpffile!.temp" "!gpffile!" > nul
+        
+        (
+            for /f "usebackq tokens=*" %%l in ("!gpffile!") do (
+                set "line=%%l"
+                REM Changing the spacing value
+                set "line=!line:spacing 0.375=spacing 0.600!"
+                echo !line!
+            )
+        ) > "!gpffile!.temp"
+        move /y "!gpffile!.temp" "!gpffile!" > nul
+        
+        echo Changes applied to !gpffile!
+    )
+)
+
+endlocal
+
+echo Processing completed.
+
+pause
