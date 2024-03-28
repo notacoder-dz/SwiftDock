@@ -18,7 +18,7 @@ Usage :
 
 1- Install the required software
 
-2- Save the source code as a BAT file (the file could be converted to an executable "EXE" file) 
+2- Copy the source code to a text file and save it as a BAT file (the file could be converted to an executable "EXE" file) 
 
 3- Put the BAT/EXE file in a folder, containing the ligand SDF files and the protein PDB file, and execute the program
 
