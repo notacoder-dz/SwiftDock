@@ -24,7 +24,7 @@ Usage :
 3- Put the BAT/EXE file in a folder, containing the ligand SDF files and the protein PDB file, and execute the program
 
 
-PS: The required programs should be installed in the destination folders mentioned in the source code :
+PS: The required programs should be installed in the destination folders defined in the source code :
 
 MGLTools : "C:\Program Files (x86)\MGLTools-1.5.7"
 
