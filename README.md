@@ -24,9 +24,12 @@ Usage :
 3- Put the BAT/EXE file in a folder, containing the ligand SDF files and the protein PDB file, and execute the program
 
 
-PS: The required programs should be installed in the destination folders mentioned in the source code
+PS: The required programs should be installed in the destination folders mentioned in the source code :
+
 MGLTools : "C:\Program Files (x86)\MGLTools-1.5.7"
+
 OpenBabel : "C:\Program Files\OpenBabel-3.1.1"
+
 AutoDock4 : ""C:\Program Files (x86)\The Scripps Research Institute\Autodock\4.2.6"
 
-However, the destination folders in the source code could be modified to accomodate the users' needs. 
+However, the destination folders in the source code could be modified to accomodate the users' needs 
