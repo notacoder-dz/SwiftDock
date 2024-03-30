@@ -5,7 +5,7 @@ Required installations :
 - Python (preferably 3.0 or higher)
 - MGLTools 1.5.7 (https://ccsb.scripps.edu/mgltools/downloads/)
 - OpenBabel 3.1.1 (https://github.com/openbabel/openbabel/releases/tag/openbabel-3-1-1)
-- Autodock 4.2.6 (https://autodock.scripps.edu/download-autodock4/)
+- AutoDock 4.2.6 (https://autodock.scripps.edu/download-autodock4/)
 
 Disclaimer:
 
