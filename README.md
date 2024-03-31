@@ -1,5 +1,5 @@
 # SwiftDock
-A single-click virtual screening tool using AutoDock4 for Windows
+A single-click virtual screening tool using AutoDock4 for Windows users
 
 Required installations :
 - Python (preferably 3.0 or higher)
