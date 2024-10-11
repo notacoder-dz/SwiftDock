@@ -24,7 +24,7 @@ Usage :
 3- Put the BAT/EXE file in a folder, containing the ligand SDF files and the protein PDB file, and execute the program
 
 
-PS: The required programs should be installed in the destination folders defined in the source code :
+PS: *The required programs should be installed in the destination folders defined in the source code :
 
 MGLTools : "C:\Program Files (x86)\MGLTools-1.5.7"
 
@@ -37,5 +37,5 @@ However, the destination folders in the source code could be modified to accomod
 
 *If you use this software in your research, please cite our article:
 
-Billel Larbaoui, Rafik Menad, Single-click molecular docking via SwiftDock: A new virtual screening tool using AutoDock4, Computational and Structural Biotechnology Reports, Volume 1, 2024, 100017, ISSN 2950-3639, https://doi.org/10.1016/j.csbr.2024.100017.
+Billel Larbaoui, Rafik Menad, Single-click molecular docking via SwiftDock: A new virtual screening tool using AutoDock4, Computational and Structural Biotechnology Reports, Volume 1, 2024, 100017, ISSN 2950-3639, https://doi.org/10.1016/j.csbr.2024.100017. (https://www.sciencedirect.com/science/article/pii/S2950363924000176)
 
