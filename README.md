@@ -30,7 +30,7 @@ MGLTools : "C:\Program Files (x86)\MGLTools-1.5.7"
 
 OpenBabel : "C:\Program Files\OpenBabel-3.1.1"
 
-AutoDock4 : ""C:\Program Files (x86)\The Scripps Research Institute\Autodock\4.2.6"
+AutoDock4 : "C:\Program Files (x86)\The Scripps Research Institute\Autodock\4.2.6"
 
 However, the destination folders in the source code could be modified to accomodate the users' needs.
 
@@ -39,3 +39,4 @@ However, the destination folders in the source code could be modified to accomod
 
 Billel Larbaoui, Rafik Menad, Single-click molecular docking via SwiftDock: A new virtual screening tool using AutoDock4, Computational and Structural Biotechnology Reports, Volume 1, 2024, 100017, ISSN 2950-3639, https://doi.org/10.1016/j.csbr.2024.100017. (https://www.sciencedirect.com/science/article/pii/S2950363924000176)
 
+*If you encounter any issues or have questions about the software, feel free to contact us at: billel.larbaoui@univ-bejaia.dz
