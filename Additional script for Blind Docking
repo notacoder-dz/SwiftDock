@@ -38,5 +38,3 @@ for /d %%d in (L-*) do (
 endlocal
 
 echo Processing completed.
-
-pause
