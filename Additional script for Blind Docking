@@ -15,7 +15,7 @@ for /d %%d in (L-*) do (
             for /f "usebackq tokens=*" %%l in ("!gpffile!") do (
                 set "line=%%l"
                 REM Changing the xyz coordinates or number of points
-                set "line=!line:npts 40 40 40=npts 120 120 120!"
+                set "line=!line:npts 40 40 40=npts 126 126 126!"
                 echo !line!
             )
         ) > "!gpffile!.temp"
