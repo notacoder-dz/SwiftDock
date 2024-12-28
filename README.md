@@ -34,9 +34,11 @@ AutoDock4 : "C:\Program Files (x86)\The Scripps Research Institute\Autodock\4.2.
 
 However, the destination folders in the source code could be modified to accomodate the users' needs.
 
+*The "SwiftDock.bat" file is designed to execute docking using default grid box coordinates. To perform blind docking or site-specific docking, integrate the 'Additional Script for Blind Docking' into the main code (see the additional script for details).   
 
-*If you use this software in your research, please cite our article:
+
+If you use this software in your research, please cite our article:
 
 Billel Larbaoui, Rafik Menad, Single-click molecular docking via SwiftDock: A new virtual screening tool using AutoDock4, Computational and Structural Biotechnology Reports, Volume 1, 2024, 100017, ISSN 2950-3639, https://doi.org/10.1016/j.csbr.2024.100017. (https://www.sciencedirect.com/science/article/pii/S2950363924000176)
 
-*If you encounter any issues or have questions about the software, feel free to contact us at: billel.larbaoui@univ-bejaia.dz
+*If you encounter any issues or have questions about the software, feel free to contact us at: bilellarbaoui@gmail.com or menadrafik@gmail.com
