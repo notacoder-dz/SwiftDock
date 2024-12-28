@@ -34,7 +34,7 @@ AutoDock4 : "C:\Program Files (x86)\The Scripps Research Institute\Autodock\4.2.
 
 However, the destination folders in the source code could be modified to accomodate the users' needs.
 
-*The "SwiftDock.bat" file is designed to execute docking using default grid box coordinates. To perform blind docking or site-specific docking, integrate the 'Additional Script for Blind Docking' into the main code (see the additional script for details).   
+*The "SwiftDock.bat" file is designed to execute docking using default grid box dimensions. To perform blind docking or site-specific docking, integrate the 'Additional Script for Blind Docking' into the main code (see the additional script for details).   
 
 
 
