@@ -1,6 +1,6 @@
 REM This is an additional batch script that can be added to the main source code of SwiftDock
-REM By adding this script to the source code, in the indicated section (Follow the remarks or "REM"), SwiftDock would be orientated to execute a blind docking using AutoDock4
-REM The user can modify and change the grid box dimensions to accomodate their personal purposes
+REM By adding this script to the source code, in the indicated section (between lines 212 and 224), SwiftDock would be orientated to execute a blind docking
+REM The users can modify the grid box dimensions (lines 18 and 28) to accomodate their specific needs before incorporating the script
 
 @echo off
 setlocal enabledelayedexpansion
