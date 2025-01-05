@@ -1,6 +1,6 @@
 REM This is an additional batch script that can be added to the main source code of SwiftDock
 REM By adding this script to the source code, in the indicated section (between lines 212 and 224), SwiftDock would be orientated to execute a blind docking
-REM The users can modify the grid box dimensions (lines 18 and 28) to accomodate their specific needs before incorporating the script
+REM The users can modify the grid box center and dimensions (lines 20, 31 and 43) to accomodate their specific needs before incorporating the script
 
 @echo off
 setlocal enabledelayedexpansion
@@ -11,6 +11,8 @@ for /d %%d in (L-*) do (
     for %%f in ("!subfolder!\*.gpf") do (
         set "gpffile=%%~f"
         echo Found gpf file: !gpffile!
+        
+        REM Changing npts values
         (
             for /f "usebackq tokens=*" %%l in ("!gpffile!") do (
                 set "line=%%l"
@@ -20,7 +22,8 @@ for /d %%d in (L-*) do (
             )
         ) > "!gpffile!.temp"
         move /y "!gpffile!.temp" "!gpffile!" > nul
-        
+
+        REM Changing spacing value
         (
             for /f "usebackq tokens=*" %%l in ("!gpffile!") do (
                 set "line=%%l"
@@ -30,11 +33,23 @@ for /d %%d in (L-*) do (
             )
         ) > "!gpffile!.temp"
         move /y "!gpffile!.temp" "!gpffile!" > nul
-        
-        echo Changes applied to !gpffile!
+
+
+        REM Changing gridcenter
+        (
+            for /f "usebackq tokens=*" %%l in ("!gpffile!") do (
+                set "line=%%l"
+                REM Changing the values
+                set "line=!line:gridcenter auto=gridcenter auto!"
+                echo !line!
+            )
+        ) > "!gpffile!.temp"
+        move /y "!gpffile!.temp" "!gpffile!" > nul        
     )
 )
 
 endlocal
 
 echo Processing completed.
+
+
