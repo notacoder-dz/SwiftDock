@@ -4,12 +4,15 @@ A single-click virtual screening tool using AutoDock4 for Windows users
 A new version of SwiftDock is available ! Visit https://github.com/notacoder-dz/SwiftDock1.0 to download the latest version.
 ****************************************************************************************************************************
 
+****************************************************************************************************************************
 
 Required installations :
 - Python (preferably 3.0 or higher)
 - MGLTools 1.5.7 (https://ccsb.scripps.edu/mgltools/downloads/)
 - OpenBabel 3.1.1 (https://github.com/openbabel/openbabel/releases/tag/openbabel-3-1-1)
 - AutoDock 4.2.6 (https://autodock.scripps.edu/download-autodock4/)
+
+****************************************************************************************************************************
 
 Disclaimer:
 
@@ -19,6 +22,8 @@ The author acknowledges the assistance received in the development of this code 
 
 In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the use or performance of this code.
 
+****************************************************************************************************************************
+
 Usage :
 
 1- Install the required software
@@ -27,6 +32,7 @@ Usage :
 
 3- Put the BAT/EXE file in a folder, containing the ligand SDF files and the protein PDB file, and execute the program
 
+****************************************************************************************************************************
 
 PS: *The required programs should be installed in the destination folders defined in the source code :
 
@@ -40,11 +46,13 @@ However, the destination folders in the source code could be modified to accomod
 
 *The "SwiftDock.bat" file is designed to execute docking using default grid box dimensions. To perform blind docking or site-specific docking, integrate the 'Additional Script for Blind Docking' into the main code (see the additional script for details).   
 
+****************************************************************************************************************************
 
-
------------------------------If you use this software in your research, please cite our article:
+If you use this software in your research, please cite our article:
 
 Larbaoui, B., & Menad, R. (2024). Single-click molecular docking via SwiftDock: A new virtual screening tool using AutoDock4. Computational and Structural Biotechnology Reports, 1, 100017. https://doi.org/10.1016/j.csbr.2024.100017
 
------------------------------If you encounter any issues or have questions about the software, feel free to contact us at:
+****************************************************************************************************************************
+
+If you encounter any issues or have questions about the software, feel free to contact us at:
 bilellarbaoui@gmail.com or menadrafik@gmail.com
