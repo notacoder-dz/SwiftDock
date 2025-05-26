@@ -1,9 +1,11 @@
 # SwiftDock
 A single-click virtual screening tool using AutoDock4 for Windows users
 
------------------------------A new version of SwiftDock is available!
+---------------------------------------------A new version of SwiftDock is available!
 
 Visit https://github.com/notacoder-dz/SwiftDock1.0 to download the latest version.
+
+------------------------------------------------------------------------------------------
 
 Required installations :
 - Python (preferably 3.0 or higher)
